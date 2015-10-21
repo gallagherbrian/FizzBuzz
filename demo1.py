@@ -1,4 +1,4 @@
-def fizzbuzz():
+def fizz_buzz():
   for i in range(1,100):
     if i % 3 == 0:
       print ("Fizz", end=' ')
@@ -7,4 +7,4 @@ def fizzbuzz():
     else:
       print(i,end=' ')
       
-fizzbuzz()
+fizz_buzz()
